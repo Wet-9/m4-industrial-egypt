@@ -1,0 +1,24 @@
+.city-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .styleCities {
+    text-decoration: none;
+    border: 1px solid red;
+    background: white;
+    color: black;
+    padding: 10px;
+    font-style: italic;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .styleCities:hover {
+    background: red;
+  }
+  

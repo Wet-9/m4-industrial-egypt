@@ -1,0 +1,12 @@
+#appName {
+    font-size: 20px;
+  }
+  
+  #aim {
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

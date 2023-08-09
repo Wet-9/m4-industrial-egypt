@@ -1,0 +1,7 @@
+<div *ngFor="let city of cities" [ngClass]="{ 'city-black': !color, 'city-green': color }">
+    <h2>{{ city.name }}</h2>
+    <ul>
+      <li *ngFor="let attraction of city.attractionSites">{{ attraction }}</li>
+    </ul>
+  </div>
+  

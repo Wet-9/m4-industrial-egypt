@@ -1,0 +1,9 @@
+<div class="city-container">
+    <ul class="city-list">
+        <li class="city-item" *ngFor="let weather of weatherData">
+            <a [routerLink]="['/weather', weather.name]" class="styleCities">
+                {{ weather.name }}
+            </a>
+        </li>
+    </ul>
+</div>

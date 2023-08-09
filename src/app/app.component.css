@@ -1,0 +1,41 @@
+/* Style for navigation menu */
+nav {
+  background: rgba(192, 192, 192, 1);
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+}
+
+nav a {
+  display: inline;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: red;
+  color: black;
+}
+
+
+footer {
+  background: rgba(192, 192, 192, 0.3);
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0%;
+  left: 0%;
+  text-align: center;
+  color: black;
+}
+
+/* Top Padding */
+.main-content {
+  padding-top: 30px;
+}
